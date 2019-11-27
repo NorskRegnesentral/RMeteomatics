@@ -8,7 +8,8 @@ library(lubridate)
 library(ggplot2)
 library(stringr)
 library(grid)
-source('VERSION.R')
+
+VERSION = "3.0.1"
 
 query_user_features = function(username, password)
 {
